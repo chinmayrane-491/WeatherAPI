@@ -77,7 +77,8 @@
 
       async function fetchAPI(cityname) {
         const promise = await fetch(
-          `http://api.weatherapi.com/v1/current.json?key=c0633347730f425c9f0145512242208&q=${cityname}&aqi=yes`
+          `http://api.weatherapi.com/v1/current.json?key=ADD_Your_Key&q=${cityname}&aqi=yes`
+          //Create a key and Add Your Key 
         );
 
         return await promise.json();
